@@ -1,3 +1,154 @@
+/* GLOBAL RESET */
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+/* GLOBAL COLORS */
+body { color: rgba(11, 1, 53, 0.8); }
+a { color: rgb(218, 99, 157); }
+a:hover { color: rgb(25, 180, 241); }
+
+/* GLOBAL TYPOGRAPHY */
 body {
-    background: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 88.75%; /* 14px */
+  line-height: 1.4;
 }
+
+/* HEADER */
+
+header {
+    background-color: darkred;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(255, 174, 0);
+}
+
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
+}
+
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav  a {
+    display: block;
+    padding: 1em;
+}
+
+/* MAIN */
+main {
+    background: rgba(0,0,0,.05);
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-nav  a {
+    display: block;
+    padding: 1em;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: darkred;
+    text-align: center;
+    color: rgb(13, 22, 184);
+    padding: 6em 1 em;
+}
+
+.hero h2 {
+    font-size: 6em;
+    line-height: 1;
+    color: rgb(189, 130, 1);
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p {
+    max-width: 30em;
+    margin: 1em auto;
+}
+
+.page-home .hero {
+    background-image:url(../img/selfportraitbanner.png) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* COURSES*/
+.courses {
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.courses h3 {
+    text-align: center;
+}
+
+/* COURSES PAGES WITH MULTIPLE PROJECT LISTS */
+.courses {
+    padding: 3em 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 2em;
+}
+
+/* SUB PAGES */
+.page-sub .hero {
+    background-color:rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* STYLING FOR SUB PAGES */
+.page-sub .hero {
+    background-color: rgba(0, 0, 0, 0.1)
+    color rgba(0, 0, 0, 0.8)
+}
+
+/* COURSEWORK SECTION */
+.coursework {
+    padding: 6em 1em;
+
+}
+
