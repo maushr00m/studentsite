@@ -83,7 +83,7 @@ footer {
     background-color: darkred;
     text-align: center;
     color: rgb(13, 22, 184);
-    padding: 6em 1 em;
+    padding: 6em 1em;
 }
 
 .hero h2 {
@@ -123,11 +123,10 @@ footer {
 }
 
 /* COURSES PAGES WITH MULTIPLE PROJECT LISTS */
-.courses {
-    padding: 3em 1em;
-    display: flex;
+.coursework {
+    padding: 6em 1em;
     justify-content: center;
-    flex-wrap: wrap;
+    display: flex;
 }
 
 .project {
@@ -142,8 +141,8 @@ footer {
 
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
-    background-color: rgba(0, 0, 0, 0.1)
-    color rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /* COURSEWORK SECTION */
